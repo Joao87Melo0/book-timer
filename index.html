@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tempo de leitura</h1>
+        <p>Descubra quanto tempo levará <br>para ler o livro</p>
+    </header>
+    <div id="esp">
+        
+    </div>
+    <section>
+        <h1 id="time">00 : 00 : 00</h1>
+        <div id="butoes">
+            <div id="b1">
+                <input id="zerar" type="button" value="✖">
+                <p id="PS">ZERAR</p>
+            </div>
+            <div id="b2">
+                <input id="play" type="button" value="▶">
+                <p id="INI">INICIAR</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <input id="fim" type="button" value="Finalizar" onclick="stop()">
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
